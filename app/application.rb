@@ -8,7 +8,7 @@ class Application
       resp.write "#{time}"
       resp.write "Good Morning!"
     else
-      
+      resp.write "#{time}"
       resp.write "Good Afternoon!"
     end
 
